@@ -1,5 +1,4 @@
 package org.example.Models;
 
-public class Ticket {
-
+public enum PaymentStatus {
 }

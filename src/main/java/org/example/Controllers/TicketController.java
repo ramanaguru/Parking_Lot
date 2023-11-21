@@ -18,16 +18,16 @@ public class TicketController {
            4) after creating DTO --> 1. RequestDTO  2. ResponseDTO
            5) comeBack to the TicketController change the parameter
 
-            public issueTicketRESPONSE_DTO(issueTicketREQUEST_DTO){
+            public issueTicketRESPONSE_DTO issueTicket(issueTicketREQUEST_DTO){
 
-
+                return null;    afterwards come and change return type ,because now it will show error
             }
 
 
      */
-    public IssueTicketResponseDTO (IssueTicketRequestDTO issueTicketRequestDTO){
+    public IssueTicketResponseDTO issueTicket (IssueTicketRequestDTO issueTicketRequestDTO){
 
-
+        return null;
     }
 
 

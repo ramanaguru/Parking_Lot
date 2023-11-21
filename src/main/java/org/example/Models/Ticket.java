@@ -10,6 +10,15 @@ public class Ticket extends BaseModel {
     private Gate gate;
     private  Operator operator;
     private  Vehicle vehicle;
+    private String number;
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
 
     public ParkingSpot getParkingSpot() {
         return parkingSpot;

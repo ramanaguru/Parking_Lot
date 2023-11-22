@@ -15,4 +15,20 @@ public class BaseModel {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public Date getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public Date getUpdateddAt() {
+        return updateddAt;
+    }
+
+    public void setUpdateddAt(Date updateddAt) {
+        this.updateddAt = updateddAt;
+    }
 }

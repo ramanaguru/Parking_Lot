@@ -31,4 +31,7 @@ public class IssueTicketResponseDTO {
     public void setFailureReason(String failureReason) {
         this.failureReason = failureReason;
     }
+
+
+
 }
